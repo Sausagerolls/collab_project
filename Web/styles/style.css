@@ -53,7 +53,7 @@ img, object, embed, video {
 	clear: none;
 	float: none;
 }
-#desktopdiv1 {
+#mobilediv1 {
 	width: 30%;
 }
 .zeroMargin_mobile {
@@ -61,6 +61,15 @@ img, object, embed, video {
 }
 .hide_mobile {
     display: none;
+}
+.desktop{
+visibility:hidden;
+}
+.mobile{
+visibility:visible;
+}
+.tablet{
+visibility:hidden;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -75,7 +84,7 @@ img, object, embed, video {
 	float: none;
 	margin-left: auto;
 }
-#desktopdiv1 {
+#tabletdiv1 {
 	width: 30%;
 }
 
@@ -84,6 +93,15 @@ img, object, embed, video {
 }
 .hide_tablet {
     display: none;
+}
+.desktop{
+visibility:hidden;
+}
+.mobile{
+visibility:hidden;
+}
+.tablet{
+visibility:visible;
 }
 }
 
@@ -110,5 +128,14 @@ img, object, embed, video {
 }
 .hide_desktop {
     display: none;
+}
+.desktop{
+visibility:visible;
+}
+.mobile{
+visibility:hidden;
+}
+.tablet{
+visibility:hidden;
 }
 }
