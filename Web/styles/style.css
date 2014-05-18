@@ -63,13 +63,13 @@ img, object, embed, video {
     display: none;
 }
 .desktop{
-visibility:hidden;
+display:none;
 }
 .mobile{
-visibility:visible;
+display:block;
 }
 .tablet{
-visibility:hidden;
+display:none;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -95,13 +95,13 @@ visibility:hidden;
     display: none;
 }
 .desktop{
-visibility:hidden;
+display:none;
 }
 .mobile{
-visibility:hidden;
+display:none;
 }
 .tablet{
-visibility:visible;
+display:block;
 }
 }
 
@@ -130,12 +130,14 @@ visibility:visible;
     display: none;
 }
 .desktop{
-visibility:visible;
+	display:block;
 }
+
 .mobile{
-visibility:hidden;
+	display:none;
 }
+
 .tablet{
-visibility:hidden;
+	display:none;
 }
 }
