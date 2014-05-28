@@ -46,9 +46,9 @@ p {
 
 p1 { position: fixed; 
 top: 40px;
-right: 22%;
+right: 20%;
 font-family: 'Roboto', sans-serif !important;
-font-size: 60px;
+font-size: 45px;
 font-weight:100;
 color: #fff;
 }
