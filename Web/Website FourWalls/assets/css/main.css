@@ -47,12 +47,20 @@ p {
 }
 
 p1 { position: fixed; 
-top: 40px;
-right: 20%;
-font-family: 'Roboto', sans-serif !important;
-font-size: 45px;
-font-weight:100;
-color: #fff;
+    top: 40px;
+    right: 20%;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 45px;
+    font-weight:100;
+    color: #fff;
+}
+
+episodestitle{
+    text-align: center;
+    color: red;
+    font-weight: 100px;
+    font-size: 50px;
+
 }
 
 .centered {
