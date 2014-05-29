@@ -33,8 +33,10 @@ body {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif !important;
-    font-weight: 300;
+    font-weight: 500;
     color: #ED1C24;
+    text-align: center;
+    
 }
 
 
