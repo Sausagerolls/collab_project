@@ -1482,7 +1482,11 @@ pre code {
       letter-spacing: 50px;
   }
   .col-lg-4 {
-    width: 33.33333333333333%;
+      width: 50%;
+      float: left;
+      letter-spacing: 50%;
+      background-color: red;
+      
   }
   .col-lg-3 {
     width: 25%;

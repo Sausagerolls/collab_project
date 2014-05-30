@@ -29,6 +29,27 @@ body {
   width: 100%;
   height: 100%;
 }
+
+videonavleft{
+float: left;
+width: 20%;
+left: 10%;
+}
+
+videonavright{
+float: right;
+width: 20%;
+
+}
+
+videonavmiddle{
+width: 60%;
+float: left;
+
+
+    
+
+}
  
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
