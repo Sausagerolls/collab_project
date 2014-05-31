@@ -45,12 +45,10 @@ width: 20%;
 videonavmiddle{
 width: 60%;
 float: left;
-
-
-    
-
 }
  
+
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif !important;
@@ -76,6 +74,15 @@ p1 { position: fixed;
     color: #fff;
 }
 
+p2 { position: fixed; 
+    top: 40px;
+    right: 5%;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 25px;
+    font-weight:100;
+    color: #fff;
+}
+
 episodestitle{
     text-align: center;
     color: red;
@@ -90,6 +97,21 @@ episodestitle{
 
 .mt {
 	margin-top: 40px;
+}
+
+
+greentext{
+
+    font-family: 'Roboto', sans-serif !important;
+    color: white;
+
+}
+
+hellotext{
+
+    font-family: 'Roboto', sans-serif !important;
+    color: grey;
+
 }
 
 /* Links */
