@@ -20,7 +20,21 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/chart.js"></script>
     <script src="http://jwpsrv.com/library/NemZzOcwEeO9OiIAC0MJiQ.js"></script>
-  </head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/CrbUI/audio/button/js/modernizr.js"></script>
+	<script type="text/javascript" src="assets/CrbUI/audio/button/js/swfobject.js"></script>
+	<script type="text/javascript" src="assets/CrbUI/audio/button/js/CrbUI_AudioButton-0.74.adv.js"></script>
+    <script type="text/javascript">
+		function stopAudio()
+		{
+			CrbUI_AP.stop();
+		}
+		CrbUI_A_CONF['COLOR']			= '#0091ec';
+		CrbUI_A_CONF['SIZE']			= 60;
+		//CrbUI_A_CONF['OVERLAY']		= 'audio/beep.mp3';
+		//CrbUI_A_CONF['OVERLAY_DELAY']	= 3000;
+	</script>
+    </head>
 
   <body>
 
@@ -59,7 +73,7 @@
       <div id="hello">
 		<div class="container">
 			<div class="row">
-                <div class="col-lg-10 centered"><br><br></div>
+                <div class="col-lg-10 centered"></div>
 				<div class="col-lg-5 centered">
                     <a href="episode1.html"><img src="assets/img/link_images/websize/Episode1.jpg" height="100" alt=""></a>     
 
@@ -72,6 +86,18 @@
                     <a href="episode4.html"><img src="assets/img/link_images/websize/Episode4.jpg" height="100" alt=""></a>
                 </div>
 			</div>
+            <div class="col-lg-12 centered"><br><br>
+            <div id="preview1">
+		<img src="assets/img/2-01.jpg" height="65px" width="65px"/>
+		<ul>
+			<li>Four Walls</li>
+			<li>Radio Episode</li>
+		</ul>
+		<div id="assets/audio/Demo1" class="CrbUI_AudioButton"></div>
+	</div>
+	
+	
+            </div>
 		</div>
 	</div>
 
