@@ -50,7 +50,7 @@ float: left;
 
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4{
     font-family: 'Roboto', sans-serif !important;
     font-weight: 500;
     color: #ED1C24;
@@ -58,6 +58,11 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
+h5{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20px;
+    text-align: center;
+}
 
 /* Paragraph & Typographic */
 p {
@@ -223,6 +228,14 @@ imagelinkright{
 #hello h2 {
 	color: #ED1C24;
 	font-weight: 400;
+}
+
+#hello h3 {
+	color: #ED1C24;
+	font-weight: 400;
+    float: left;
+    width: 100%;
+    
 }
 
 /* Green */
